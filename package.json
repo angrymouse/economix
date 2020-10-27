@@ -1,0 +1,29 @@
+{
+  "name": "economix",
+  "version": "1.0.0",
+  "description": "Functionality-rich discord economy bot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angrymouse/economix.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "economy"
+  ],
+  "author": "Angrymouse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angrymouse/economix/issues"
+  },
+  "homepage": "https://github.com/angrymouse/economix#readme",
+  "dependencies": {
+    "discord.js": "^12.4.1",
+    "mongodb": "^3.6.2",
+    "sharp": "^0.26.2"
+  }
+}
