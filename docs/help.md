@@ -1,4 +1,1 @@
-<p style="text-align: center;">
-# Economix help
-
-</p>
+<h1 style="text-align: center;">Economix help</h1>
