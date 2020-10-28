@@ -27,6 +27,7 @@ module.exports = async () => {
       .setTitle(title)
     )
   }
+  
   Discord.TextChannel.prototype.msgSuccess = async function(content, title) {
     let channel = this
     if (!title) {
