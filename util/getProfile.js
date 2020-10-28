@@ -5,7 +5,7 @@ module.exports = async (id, guild) => {
     guild: guild
   })
   if (!profile) {
-    profile = await util.resetServerProfile(id, guild)
+    profile = await util.resetProfile(id, guild)
   }
   return profile
 }

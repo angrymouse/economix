@@ -3,6 +3,7 @@ global.Discord = require("discord.js")
 global.MongoClient = require("mongodb").MongoClient
 global.util = require("./util/map.js")
 global.fs=require("fs")
+global.struct=require('./struct/base.js')
 global.config = require("./config.json")
 global.client = new Discord.Client({
   disableEveryone: true
